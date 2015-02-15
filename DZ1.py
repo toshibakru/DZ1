@@ -5,7 +5,6 @@ Scheme Checking
 import time
 START = time.time()
 import sys
-print (sys.argv)
 INPUT_FILE = sys.argv[1]
 import xml.dom.minidom
 DOM = xml.dom.minidom.parse(INPUT_FILE)
